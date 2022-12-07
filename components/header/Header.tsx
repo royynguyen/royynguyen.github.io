@@ -10,10 +10,10 @@ export const Header: React.FC<any> = ({ }) => {
   const theme = useTheme();
   return (
     <React.Fragment>
-      <Grid container justifyContent={"center"} spacing={0} padding="15px 0px" bgcolor={"black"}>
-        <Grid item >
+      <Grid container justifyContent={"center"} spacing={0}>
+        <Grid item xs={12}>
           <Link href="#" underline="none">
-            <Typography component="h4" variant="h4" color="white" fontWeight={"bold"}>ADIDAS</Typography>
+            <Typography padding={'15px 0px'} textAlign={'center'} style={{ backgroundColor: 'black' }} component="h4" variant="h4" color="white" fontWeight={"bold"}>ADIDAS</Typography>
           </Link>
         </Grid>
 
