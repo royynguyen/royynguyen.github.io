@@ -1649,13 +1649,13 @@ function MyApp({ Component , pageProps  }) {
                     enableColorScheme: true
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx(Layout/* default */.Z, {
-                    title: "Home | Next.js + TypeScript Example",
+                    title: "Adidas Checkin",
                     children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(material_namespaceObject.Grid, {
                         container: true,
                         justifyContent: "flex-start",
                         height: "100vh",
                         style: {
-                            background: `transparent url(https://sneakerdaily.vn/wp-content/uploads/2022/10/giay-adidas-wmns-terrex-free-hiker-primeblue-ambient-blush-fz3129.png) center / contain no-repeat`
+                            background: `transparent url(/images/bg.jpg) center / cover no-repeat`
                         },
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
@@ -1666,7 +1666,8 @@ function MyApp({ Component , pageProps  }) {
                                 height: "100px",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Autocomplete, {
                                     style: {
-                                        width: "100%"
+                                        width: "100%",
+                                        backgroundColor: "white"
                                     },
                                     value: user,
                                     disablePortal: true,
@@ -1681,16 +1682,19 @@ function MyApp({ Component , pageProps  }) {
                                     },
                                     getOptionLabel: (option)=>{
                                         var ref;
-                                        return `${(option === null || option === void 0 ? void 0 : (ref = option.name) === null || ref === void 0 ? void 0 : ref.trim()) ?? ""}`;
+                                        return `${(option === null || option === void 0 ? void 0 : (ref = option.name) === null || ref === void 0 ? void 0 : ref.trim().toUpperCase()) ?? ""}`;
                                     },
                                     renderOption: (props, option)=>/*#__PURE__*/ (0,external_react_.createElement)("li", {
                                             ...props,
                                             key: option.luckyNumber
-                                        }, option.name),
+                                        }, option.name.toUpperCase()),
                                     sx: {
                                         width: 300
                                     },
                                     renderInput: (params)=>/*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.TextField, {
+                                            style: {
+                                                textTransform: "uppercase"
+                                            },
                                             ...params,
                                             label: "Input your name"
                                         })
@@ -1707,7 +1711,8 @@ function MyApp({ Component , pageProps  }) {
                                         backgroundColor: "#000",
                                         color: "#fff",
                                         ":hover": {
-                                            color: "#000"
+                                            color: "#000",
+                                            backgroundColor: "#fff"
                                         }
                                     },
                                     onClick: ()=>setUserDetail(user),
@@ -1718,7 +1723,6 @@ function MyApp({ Component , pageProps  }) {
                                 container: true,
                                 spacing: 1,
                                 justifyContent: "center",
-                                mt: "30px",
                                 children: [
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(material_namespaceObject.Grid, {
                                         item: true,
@@ -1726,33 +1730,101 @@ function MyApp({ Component , pageProps  }) {
                                         textAlign: "center",
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                fontSize: "25px",
+                                                fontSize: "20px",
+                                                pt: "10px",
+                                                bgcolor: "rgba(255, 0, 0, 0.2)",
                                                 fontWeight: "bold",
-                                                children: "WELCOME TO THE PARTY"
+                                                color: "white",
+                                                children: "WELCOME TO TOWNHALL 2022"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                fontSize: "25px",
+                                                fontSize: "20px",
+                                                pb: "10px",
+                                                bgcolor: "rgba(255, 0, 0, 0.2)",
                                                 fontWeight: "bold",
-                                                children: "HERE IS YOUR INFORMATION"
+                                                color: "white",
+                                                children: "THANKS FOR YOUR ATTENDANCE"
                                             })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(material_namespaceObject.Grid, {
                                         item: true,
+                                        container: true,
                                         xs: 12,
-                                        textAlign: "center",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                children: userDetail.name
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(material_namespaceObject.Grid, {
+                                                item: true,
+                                                xs: 4,
+                                                textAlign: "left",
+                                                children: [
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        pl: "10px",
+                                                        fontWeight: "bold",
+                                                        children: "Name: "
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        pl: "10px",
+                                                        fontWeight: "bold",
+                                                        children: "Department: "
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        pl: "10px",
+                                                        fontWeight: "bold",
+                                                        children: "Room Number: "
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        pl: "10px",
+                                                        fontWeight: "bold",
+                                                        children: "Lucky Number: "
+                                                    })
+                                                ]
                                             }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                children: userDetail.department
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                children: userDetail.roomNumber
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
-                                                children: userDetail.luckyNumber
+                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(material_namespaceObject.Grid, {
+                                                item: true,
+                                                xs: 8,
+                                                textAlign: "left",
+                                                children: [
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        fontWeight: "bold",
+                                                        children: userDetail.name.toUpperCase()
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        fontWeight: "bold",
+                                                        children: userDetail.department
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        fontWeight: "bold",
+                                                        children: userDetail.roomNumber
+                                                    }),
+                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                        fontSize: "12px",
+                                                        bgcolor: "rgba(255, 0, 0, 0.2)",
+                                                        color: "white",
+                                                        fontWeight: "bold",
+                                                        children: userDetail.luckyNumber
+                                                    })
+                                                ]
                                             })
                                         ]
                                     })
