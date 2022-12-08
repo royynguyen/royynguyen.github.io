@@ -93,13 +93,17 @@ function MyApp({ Component, pageProps }) {
                   <Grid item xs={4} textAlign="left" >
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Name: </Typography>
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Department: </Typography>
-                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Room Number: </Typography>
+                    {userDetail.roomNumber.length > 0 && (
+                      <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Room Number: </Typography>
+                    )}
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Lucky Number: </Typography>
                   </Grid>
                   <Grid item xs={8} textAlign="left">
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.name.toUpperCase()}</Typography>
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.department}</Typography>
-                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.roomNumber}</Typography>
+                    {userDetail.roomNumber.length > 0 && (
+                      <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.roomNumber}</Typography>
+                    )}
                     <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.luckyNumber}</Typography>
                   </Grid>
 
