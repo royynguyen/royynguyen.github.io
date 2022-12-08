@@ -38,15 +38,15 @@ function MyApp({ Component, pageProps }) {
     <ColorContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline enableColorScheme />
-        <Layout title="Home | Next.js + TypeScript Example">
+        <Layout title="Adidas Checkin">
 
           <Grid container justifyContent={"flex-start"} height={'100vh'} style={{
-            background: `transparent url(https://sneakerdaily.vn/wp-content/uploads/2022/10/giay-adidas-wmns-terrex-free-hiker-primeblue-ambient-blush-fz3129.png) center / contain no-repeat`
+            background: `transparent url(/images/bg.jpg) center / cover no-repeat`
           }}>
             <Header />
             <Grid item xs={12} padding={"20px"} height={'100px'}>
               <Autocomplete
-                style={{ width: '100%' }}
+                style={{ width: '100%', backgroundColor: 'white' }}
                 value={user}
                 disablePortal
                 id="combo-box-demo"
@@ -59,15 +59,15 @@ function MyApp({ Component, pageProps }) {
                   setInputValue(newInputValue);
                 }}
                 getOptionLabel={(option: any) => {
-                  return `${option?.name?.trim() ?? ""}`;
+                  return `${option?.name?.trim().toUpperCase() ?? ""}`;
                 }}
                 renderOption={(props, option: any) => (
                   <li {...props} key={option.luckyNumber}>
-                    {option.name}
+                    {option.name.toUpperCase()}
                   </li>
                 )}
                 sx={{ width: 300 }}
-                renderInput={(params) => <TextField {...params} label="Input your name" />}
+                renderInput={(params) => <TextField style={{ textTransform: 'uppercase' }} {...params} label="Input your name" />}
               />
             </Grid>
             <Grid item xs={12} padding={"20px"}>
@@ -75,7 +75,8 @@ function MyApp({ Component, pageProps }) {
                 backgroundColor: "#000",
                 color: "#fff",
                 ":hover": {
-                  color: '#000'
+                  color: '#000',
+                  backgroundColor: '#fff',
                 }
               }}
                 onClick={() => setUserDetail(user)}>
@@ -83,16 +84,25 @@ function MyApp({ Component, pageProps }) {
               </Button>
             </Grid>
             {userDetail && (
-              <Grid container spacing={1} justifyContent="center" mt='30px'>
-                <Grid item xs={12} textAlign="center">
-                  <Typography fontSize={'25px'} fontWeight='bold'>WELCOME TO THE PARTY</Typography>
-                  <Typography fontSize={'25px'} fontWeight='bold'>HERE IS YOUR INFORMATION</Typography>
+              <Grid container spacing={1} justifyContent="center" >
+                <Grid item xs={12} textAlign="center" >
+                  <Typography fontSize={'20px'} pt={'10px'} bgcolor={"rgba(255, 0, 0, 0.2)"} fontWeight='bold' color="white">WELCOME TO TOWNHALL 2022</Typography>
+                  <Typography fontSize={'20px'} pb={'10px'} bgcolor={"rgba(255, 0, 0, 0.2)"} fontWeight='bold' color="white">THANKS FOR YOUR ATTENDANCE</Typography>
                 </Grid>
-                <Grid item xs={12} textAlign="center">
-                  <Typography>{userDetail.name}</Typography>
-                  <Typography>{userDetail.department}</Typography>
-                  <Typography>{userDetail.roomNumber}</Typography>
-                  <Typography>{userDetail.luckyNumber}</Typography>
+                <Grid item container xs={12} >
+                  <Grid item xs={4} textAlign="left" >
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Name: </Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Department: </Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Room Number: </Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" pl={"10px"} fontWeight='bold'>Lucky Number: </Typography>
+                  </Grid>
+                  <Grid item xs={8} textAlign="left">
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.name.toUpperCase()}</Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.department}</Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.roomNumber}</Typography>
+                    <Typography fontSize={'12px'} bgcolor={"rgba(255, 0, 0, 0.2)"} color="white" fontWeight='bold'>{userDetail.luckyNumber}</Typography>
+                  </Grid>
+
                 </Grid>
               </Grid>
             )}
