@@ -163,31 +163,31 @@ const UserList = [
     {
         name: "fomin dmytro",
         department: "APP",
-        roomNumber: "6232",
+        roomNumber: "6122",
         luckyNumber: "113"
     },
     {
         name: "nguyen jollie",
         department: "APP",
-        roomNumber: "6231",
+        roomNumber: "6121",
         luckyNumber: "114"
     },
     {
         name: "best jan",
         department: "FW",
-        roomNumber: "6231",
+        roomNumber: "6121",
         luckyNumber: "115"
     },
     {
         name: "pham jack",
         department: "APP",
-        roomNumber: "6233",
+        roomNumber: "6123",
         luckyNumber: "116"
     },
     {
         name: "nguyen minhduc",
         department: "APP",
-        roomNumber: "6233",
+        roomNumber: "6123",
         luckyNumber: "117"
     },
     {
@@ -1327,13 +1327,13 @@ const UserList = [
     {
         name: "urlych amandin ingabire",
         department: "Creation Center",
-        roomNumber: "6121",
+        roomNumber: "6141",
         luckyNumber: "307"
     },
     {
         name: "ferry steinhoefel",
         department: "Creation Center",
-        roomNumber: "6122",
+        roomNumber: "6142",
         luckyNumber: "308"
     },
     {
@@ -1773,7 +1773,7 @@ function MyApp({ Component , pageProps  }) {
                                                         fontWeight: "bold",
                                                         children: "Department: "
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                    userDetail.roomNumber.length > 0 && /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
                                                         fontSize: "12px",
                                                         bgcolor: "rgba(255, 0, 0, 0.2)",
                                                         color: "white",
@@ -1810,7 +1810,7 @@ function MyApp({ Component , pageProps  }) {
                                                         fontWeight: "bold",
                                                         children: userDetail.department
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
+                                                    userDetail.roomNumber.length > 0 && /*#__PURE__*/ jsx_runtime_.jsx(material_namespaceObject.Typography, {
                                                         fontSize: "12px",
                                                         bgcolor: "rgba(255, 0, 0, 0.2)",
                                                         color: "white",
