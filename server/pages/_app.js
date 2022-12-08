@@ -89,61 +89,61 @@ const Header = ({})=>{
 ;// CONCATENATED MODULE: ./constants.tsx
 const UserList = [
     {
-        name: "truong thi thuy tinh",
+        name: "truong tinh",
         department: "APP",
         roomNumber: "4023",
         luckyNumber: "101"
     },
     {
-        name: "nguyen thanh minh ngoc",
+        name: "nguyen ngoc",
         department: "FW",
         roomNumber: "4023",
         luckyNumber: "102"
     },
     {
-        name: "duong thi pho chau",
+        name: "duong chau",
         department: "A&G",
         roomNumber: "4092",
         luckyNumber: "103"
     },
     {
-        name: "phung thi thanh huong",
+        name: "phung jessica",
         department: "APP",
         roomNumber: "4092",
         luckyNumber: "104"
     },
     {
-        name: "tran thi nuong",
+        name: "tran sarah",
         department: "APP",
         roomNumber: "4093",
         luckyNumber: "105"
     },
     {
-        name: "tran thi thu huong",
+        name: "tran huong",
         department: "FW",
         roomNumber: "4093",
         luckyNumber: "106"
     },
     {
-        name: "diep thi tuong nga",
+        name: "diep nga",
         department: "APP",
         roomNumber: "6222",
         luckyNumber: "107"
     },
     {
-        name: "duong ngoc mai thao",
+        name: "duong thao",
         department: "APP",
         roomNumber: "6222",
         luckyNumber: "108"
     },
     {
-        name: "pham thi minh hien",
+        name: "pham hien",
         department: "APP",
         roomNumber: "6221",
         luckyNumber: "109"
     },
     {
-        name: "nguyen thi thanh nga",
+        name: "nguyen naomi",
         department: "APP",
         roomNumber: "6221",
         luckyNumber: "110"
@@ -155,7 +155,7 @@ const UserList = [
         luckyNumber: "111"
     },
     {
-        name: "wang ya-huei",
+        name: "wang sophia",
         department: "APP",
         roomNumber: "6223",
         luckyNumber: "112"
@@ -167,523 +167,523 @@ const UserList = [
         luckyNumber: "113"
     },
     {
-        name: "nguyen thi pho",
+        name: "nguyen jollie",
         department: "APP",
         roomNumber: "6231",
         luckyNumber: "114"
     },
     {
-        name: "jan moritz fiete best",
+        name: "best jan",
         department: "FW",
         roomNumber: "6231",
         luckyNumber: "115"
     },
     {
-        name: "pham phu loc",
+        name: "pham jack",
         department: "APP",
         roomNumber: "6233",
         luckyNumber: "116"
     },
     {
-        name: "nguyen minh duc",
+        name: "nguyen minhduc",
         department: "APP",
         roomNumber: "6233",
         luckyNumber: "117"
     },
     {
-        name: "nguyen thi my linh",
+        name: "nguyen mylinh",
         department: "APP",
         roomNumber: "7021",
         luckyNumber: "118"
     },
     {
-        name: "pham thi thu hang",
+        name: "pham hang",
         department: "APP",
         roomNumber: "7021",
         luckyNumber: "119"
     },
     {
-        name: "vo phan minh nguyet",
+        name: "vo nguyet",
         department: "APP",
         roomNumber: "7022",
         luckyNumber: "120"
     },
     {
-        name: "hua thi huyen",
+        name: "hua huyen",
         department: "APP",
         roomNumber: "7022",
         luckyNumber: "121"
     },
     {
-        name: "nguyen tran nhut",
+        name: "nguyen nhut",
         department: "APP",
         roomNumber: "7023",
         luckyNumber: "122"
     },
     {
-        name: "truong thanh gia bao",
+        name: "truong bao",
         department: "APP",
         roomNumber: "7023",
         luckyNumber: "123"
     },
     {
-        name: "tran vu minh",
+        name: "tran bo",
         department: "APP",
         roomNumber: "7031",
         luckyNumber: "124"
     },
     {
-        name: "phan thanh tam",
+        name: "phan chris",
         department: "APP",
         roomNumber: "7031",
         luckyNumber: "125"
     },
     {
-        name: "huynh minh tri",
+        name: "huynh tri",
         department: "APP",
         roomNumber: "7033",
         luckyNumber: "126"
     },
     {
-        name: "phan han huu",
+        name: "phan huu",
         department: "APP",
         roomNumber: "7033",
         luckyNumber: "127"
     },
     {
-        name: "le thi my yen",
+        name: "le yen",
         department: "APP",
         roomNumber: "7032",
         luckyNumber: "128"
     },
     {
-        name: "bui phuc tram anh",
+        name: "bui anh",
         department: "HR",
         roomNumber: "7032",
         luckyNumber: "129"
     },
     {
-        name: "nguyen phung ngoc quynh",
+        name: "nguyen winnie",
         department: "A&G",
         roomNumber: "4152",
         luckyNumber: "130"
     },
     {
-        name: "serrano maria agnes noleal",
+        name: "serrano maria",
         department: "A&G",
         roomNumber: "4152",
         luckyNumber: "131"
     },
     {
-        name: "le vu tuan anh",
+        name: "le tuananh",
         department: "APP",
         roomNumber: "5181",
         luckyNumber: "132"
     },
     {
-        name: "tran trung hieu",
+        name: "tran hieu",
         department: "APP",
         roomNumber: "5181",
         luckyNumber: "133"
     },
     {
-        name: "nguyen vu ngoc dung",
+        name: "nguyen yuunadung",
         department: "APP",
         roomNumber: "5183",
         luckyNumber: "134"
     },
     {
-        name: "tran thi kim thoa",
+        name: "tran thoa",
         department: "APP",
         roomNumber: "5183",
         luckyNumber: "135"
     },
     {
-        name: "do nam tran",
+        name: "do tran",
         department: "Admin",
         roomNumber: "6162",
         luckyNumber: "136"
     },
     {
-        name: "ngo thi tuyet trang",
+        name: "ngo trang",
         department: "Admin",
         roomNumber: "6162",
         luckyNumber: "137"
     },
     {
-        name: "luu thuy nhi",
+        name: "luu nhi",
         department: "Admin",
         roomNumber: "6163",
         luckyNumber: "138"
     },
     {
-        name: "nguyen thi kim em",
+        name: "nguyen kimem",
         department: "Admin",
         roomNumber: "6163",
         luckyNumber: "139"
     },
     {
-        name: "nguyen tuong vy",
+        name: "nguyen tuongvy",
         department: "Admin",
         roomNumber: "5161",
         luckyNumber: "140"
     },
     {
-        name: "phan thi tuyet ngan",
+        name: "phan ngan",
         department: "Admin",
         roomNumber: "5161",
         luckyNumber: "141"
     },
     {
-        name: "nguyen ngoc minh khanh",
+        name: "nguyen khanh",
         department: "Admin",
         roomNumber: "5162",
         luckyNumber: "142"
     },
     {
-        name: "pham nha phuong",
+        name: "pham phuong",
         department: "FW",
         roomNumber: "5162",
         luckyNumber: "143"
     },
     {
-        name: "nguyen thi thu tam",
+        name: "nguyen tam",
         department: "APP",
         roomNumber: "6272",
         luckyNumber: "144"
     },
     {
-        name: "pham tran thanh thuy",
+        name: "pham thuy",
         department: "APP",
         roomNumber: "6272",
         luckyNumber: "145"
     },
     {
-        name: "tran thi nhu hoa",
+        name: "tran anna",
         department: "APP",
         roomNumber: "6273",
         luckyNumber: "146"
     },
     {
-        name: "tràn doan hòng ngọc",
+        name: "tran hongngoc",
         department: "APP",
         roomNumber: "6273",
         luckyNumber: "147"
     },
     {
-        name: "nguyen thi que huong",
+        name: "nguyen quehuong",
         department: "FW",
         roomNumber: "7071",
         luckyNumber: "148"
     },
     {
-        name: "nguyen hong nguyen",
+        name: "nguyen nguyen",
         department: "FW",
         roomNumber: "7071",
         luckyNumber: "149"
     },
     {
-        name: "vu thi thom",
+        name: "vu alice",
         department: "FW",
         roomNumber: "7072",
         luckyNumber: "150"
     },
     {
-        name: "hoang thi nhu phuong",
+        name: "hoang phoebe",
         department: "FW",
         roomNumber: "7072",
         luckyNumber: "151"
     },
     {
-        name: "nguyen thanh tung",
+        name: "nguyen tung",
         department: "FW",
         roomNumber: "7073",
         luckyNumber: "152"
     },
     {
-        name: "nguyen minh trung",
+        name: "nguyen minhtrung",
         department: "A&G",
         roomNumber: "7073",
         luckyNumber: "153"
     },
     {
-        name: "nguyen pham quynh nga",
+        name: "nguyen phamnga",
         department: "Admin",
         roomNumber: "7112",
         luckyNumber: "154"
     },
     {
-        name: "doan thi thuy linh",
+        name: "doan linh",
         department: "APP",
         roomNumber: "7112",
         luckyNumber: "155"
     },
     {
-        name: "duong thi kim tuyet",
+        name: "duong tuyet",
         department: "APP",
         roomNumber: "7111",
         luckyNumber: "156"
     },
     {
-        name: "ho thanh van",
+        name: "ho van",
         department: "HR",
         roomNumber: "7111",
         luckyNumber: "157"
     },
     {
-        name: "bui huong cam my",
+        name: "bui mee",
         department: "HR",
         roomNumber: "7113",
         luckyNumber: "158"
     },
     {
-        name: "hoang ngoc thu",
+        name: "hoang thu",
         department: "SEA",
         roomNumber: "7113",
         luckyNumber: "159"
     },
     {
-        name: "phan thi thanh truc",
+        name: "phan truc",
         department: "FW",
         roomNumber: "7122",
         luckyNumber: "160"
     },
     {
-        name: "nguyen chau bao nguyen",
+        name: "nguyen caroline",
         department: "FW",
         roomNumber: "7122",
         luckyNumber: "161"
     },
     {
-        name: "van cap phat",
+        name: "van phat",
         department: "FW",
         roomNumber: "7123",
         luckyNumber: "162"
     },
     {
-        name: "tran hoang phuong",
+        name: "tran bob",
         department: "FW",
         roomNumber: "7123",
         luckyNumber: "163"
     },
     {
-        name: "nguyen trung phuong",
+        name: "nguyen trungapp",
         department: "APP",
         roomNumber: "7121",
         luckyNumber: "164"
     },
     {
-        name: "nguyen hoang phung",
+        name: "nguyen phung",
         department: "FW",
         roomNumber: "7121",
         luckyNumber: "165"
     },
     {
-        name: "nguyen thi huyen",
+        name: "nguyen thihuyen",
         department: "FW",
         roomNumber: "7152",
         luckyNumber: "166"
     },
     {
-        name: "nguyen khong thanh thuong",
+        name: "nguyen casey",
         department: "FW",
         roomNumber: "7152",
         luckyNumber: "167"
     },
     {
-        name: "nguyen thi thu hien",
+        name: "nguyen thuhien",
         department: "FW",
         roomNumber: "7151",
         luckyNumber: "168"
     },
     {
-        name: "nguyen thi my tien",
+        name: "nguyen tien",
         department: "FW",
         roomNumber: "7151",
         luckyNumber: "169"
     },
     {
-        name: "vo trong nhan",
+        name: "vo trongnhan",
         department: "FW",
         roomNumber: "7153",
         luckyNumber: "170"
     },
     {
-        name: "dinh le viet an",
+        name: "dinh an",
         department: "FW",
         roomNumber: "7153",
         luckyNumber: "171"
     },
     {
-        name: "nguyen thi ngoc tam",
+        name: "nguyen ngoctam",
         department: "FW",
         roomNumber: "7131",
         luckyNumber: "172"
     },
     {
-        name: "nguyen thi duyen hai",
+        name: "nguyen hai",
         department: "FW",
         roomNumber: "7131",
         luckyNumber: "173"
     },
     {
-        name: "tran thanh tung",
+        name: "tran thanhtung",
         department: "FW",
         roomNumber: "7132",
         luckyNumber: "174"
     },
     {
-        name: "vo thanh thu",
+        name: "vo thu",
         department: "FW",
         roomNumber: "7132",
         luckyNumber: "175"
     },
     {
-        name: "nguyen thanh canh",
+        name: "nguyen canh",
         department: "FW",
         roomNumber: "7133",
         luckyNumber: "176"
     },
     {
-        name: "dinh cong luan",
+        name: "dinh luan",
         department: "FW",
         roomNumber: "7133",
         luckyNumber: "177"
     },
     {
-        name: "nguyen ngoc tuan",
+        name: "nguyen ngoctuan",
         department: "FW",
         roomNumber: "8021",
         luckyNumber: "178"
     },
     {
-        name: "kieu xuan hoa",
+        name: "kieu hoa",
         department: "FW",
         roomNumber: "8021",
         luckyNumber: "179"
     },
     {
-        name: "bui xuan son",
+        name: "bui son",
         department: "Reebok",
         roomNumber: "8022",
         luckyNumber: "180"
     },
     {
-        name: "vu toan thang",
+        name: "vu victor",
         department: "FW",
         roomNumber: "8022",
         luckyNumber: "181"
     },
     {
-        name: "nguyen dong duc",
+        name: "nguyen duc",
         department: "FW",
         roomNumber: "8023",
         luckyNumber: "182"
     },
     {
-        name: "nguyen tien trung",
+        name: "nguyen trung",
         department: "FW",
         roomNumber: "8023",
         luckyNumber: "183"
     },
     {
-        name: "do thi minh nu",
+        name: "do nu",
         department: "FW",
         roomNumber: "8031",
         luckyNumber: "184"
     },
     {
-        name: "phan thi thao ly",
+        name: "phan ly",
         department: "FW",
         roomNumber: "8031",
         luckyNumber: "185"
     },
     {
-        name: "pham thanh nhat",
+        name: "pham nathan",
         department: "FW",
         roomNumber: "8032",
         luckyNumber: "186"
     },
     {
-        name: "do dinh thuan",
+        name: "do thuan",
         department: "Reebok",
         roomNumber: "8032",
         luckyNumber: "187"
     },
     {
-        name: "nguyen cong ky son",
+        name: "nguyen son",
         department: "FW",
         roomNumber: "8033",
         luckyNumber: "188"
     },
     {
-        name: "tran dinh thao",
+        name: "tran kevin",
         department: "FW",
         roomNumber: "8033",
         luckyNumber: "189"
     },
     {
-        name: "le thi dien tran",
+        name: "le tran",
         department: "FW",
         roomNumber: "8051",
         luckyNumber: "190"
     },
     {
-        name: "huynh thi thanh thao",
+        name: "huynh thao",
         department: "FW",
         roomNumber: "8051",
         luckyNumber: "191"
     },
     {
-        name: "le thi thu trang",
+        name: "le trang",
         department: "FW",
         roomNumber: "8052",
         luckyNumber: "192"
     },
     {
-        name: "phung ngoc my",
+        name: "phung my",
         department: "FW",
         roomNumber: "8052",
         luckyNumber: "193"
     },
     {
-        name: "tran thi hong ly",
+        name: "tran ly",
         department: "FW",
         roomNumber: "8053",
         luckyNumber: "194"
     },
     {
-        name: "nguyen thi kim hanh",
+        name: "nguyen hanh",
         department: "FW",
         roomNumber: "8053",
         luckyNumber: "195"
     },
     {
-        name: "nguyen thi kim chi",
+        name: "nguyen bella",
         department: "Reebok",
         roomNumber: "8102",
         luckyNumber: "196"
     },
     {
-        name: "tran tieu oanh",
+        name: "tran oanh",
         department: "Reebok",
         roomNumber: "8102",
         luckyNumber: "197"
     },
     {
-        name: "janine evelyn feirer",
+        name: "feirer janine",
         department: "FW",
         roomNumber: "8101",
         luckyNumber: "198"
     },
     {
-        name: "morlier claire marie",
+        name: "morlier claire",
         department: "FW",
         roomNumber: "8101",
         luckyNumber: "199"
     },
     {
-        name: "luisa hage",
+        name: "hage luisa",
         department: "FW",
         roomNumber: "8103",
         luckyNumber: "200"
@@ -695,31 +695,31 @@ const UserList = [
         luckyNumber: "201"
     },
     {
-        name: "nguyen thi luong hanh",
+        name: "nguyen luonghanh",
         department: "FW",
         roomNumber: "8111",
         luckyNumber: "202"
     },
     {
-        name: "lu thi thanh mai",
+        name: "lu mai",
         department: "FW",
         roomNumber: "8111",
         luckyNumber: "203"
     },
     {
-        name: "nguyen an ninh",
+        name: "nguyen ninh",
         department: "FW",
         roomNumber: "8112",
         luckyNumber: "204"
     },
     {
-        name: "dang quoc dan",
+        name: "dang dan",
         department: "FW",
         roomNumber: "8112",
         luckyNumber: "205"
     },
     {
-        name: "tran van thai",
+        name: "tran thai",
         department: "FW",
         roomNumber: "8113",
         luckyNumber: "206"
@@ -731,595 +731,595 @@ const UserList = [
         luckyNumber: "207"
     },
     {
-        name: "tu minh trung",
+        name: "tu trung",
         department: "FW",
         roomNumber: "8132",
         luckyNumber: "208"
     },
     {
-        name: "nguyen trong huu",
+        name: "nguyen jimmy",
         department: "FW",
         roomNumber: "8131",
         luckyNumber: "209"
     },
     {
-        name: "tran van lam",
+        name: "tran lam",
         department: "FW",
         roomNumber: "8131",
         luckyNumber: "210"
     },
     {
-        name: "nguyen an nghe",
+        name: "nguyen nghe",
         department: "FW",
         roomNumber: "8133",
         luckyNumber: "211"
     },
     {
-        name: "nguyen quyet thang",
+        name: "nguyen thang",
         department: "FW",
         roomNumber: "8133",
         luckyNumber: "212"
     },
     {
-        name: "fathi seyed amir",
+        name: "fathi amir",
         department: "FW",
         roomNumber: "8182",
         luckyNumber: "213"
     },
     {
-        name: "yeung man kwong",
+        name: "yeung michael",
         department: "APP",
         roomNumber: "5192",
         luckyNumber: "214"
     },
     {
-        name: "martin jobst",
+        name: "jobst martin",
         department: "FW",
         roomNumber: "8181",
         luckyNumber: "215"
     },
     {
-        name: "frederic erkenbrecher",
+        name: "erkenbrecher frederic",
         department: "FW",
         roomNumber: "8253",
         luckyNumber: "216"
     },
     {
-        name: "prince tyler james",
+        name: "prince tyler",
         department: "FW",
         roomNumber: "8183",
         luckyNumber: "217"
     },
     {
-        name: "nguyen thuong hien",
+        name: "nguyen hien2",
         department: "FW",
         roomNumber: "8251",
         luckyNumber: "218"
     },
     {
-        name: "nguyen don manh",
+        name: "nguyen rick",
         department: "FW",
         roomNumber: "8251",
         luckyNumber: "219"
     },
     {
-        name: "vo minh triet",
+        name: "vo triet",
         department: "FW",
         roomNumber: "8252",
         luckyNumber: "220"
     },
     {
-        name: "tran dang khoa",
+        name: "tran khoa",
         department: "FW",
         roomNumber: "8252",
         luckyNumber: "221"
     },
     {
-        name: "duong trong toan",
+        name: "duong toan",
         department: "FW",
         roomNumber: "8253",
         luckyNumber: "222"
     },
     {
-        name: "nguyen duy tu",
+        name: "nguyen duytu",
         department: "FW",
         roomNumber: "8183",
         luckyNumber: "223"
     },
     {
-        name: "tran ngoc phuong thao",
+        name: "tran thao",
         department: "Reebok",
         roomNumber: "8292",
         luckyNumber: "224"
     },
     {
-        name: "le huynh thanh tam",
+        name: "le tam",
         department: "FW",
         roomNumber: "8292",
         luckyNumber: "225"
     },
     {
-        name: "le vu thuy ngan",
+        name: "le ngan",
         department: "Reebok",
         roomNumber: "8291",
         luckyNumber: "226"
     },
     {
-        name: "trinh thi hai thanh",
+        name: "trinh haithanh",
         department: "FW",
         roomNumber: "8291",
         luckyNumber: "227"
     },
     {
-        name: "nguyen thi phuong thao",
+        name: "nguyen thiphuongthao",
         department: "FW",
         roomNumber: "8293",
         luckyNumber: "228"
     },
     {
-        name: "giang ngoc anh",
+        name: "giang ngocanh",
         department: "Reebok",
         roomNumber: "8293",
         luckyNumber: "229"
     },
     {
-        name: "truong chi thanh",
+        name: "truong thanh",
         department: "FW",
         roomNumber: "9021",
         luckyNumber: "230"
     },
     {
-        name: "huynh ngoc an",
+        name: "huynh an",
         department: "FW",
         roomNumber: "9021",
         luckyNumber: "231"
     },
     {
-        name: "vu duy thai",
+        name: "vu thai",
         department: "FW",
         roomNumber: "9022",
         luckyNumber: "232"
     },
     {
-        name: "nguyen phuong duyen",
+        name: "nguyen duyen",
         department: "FW",
         roomNumber: "9022",
         luckyNumber: "233"
     },
     {
-        name: "duong van minh",
+        name: "duong minh",
         department: "FW",
         roomNumber: "9023",
         luckyNumber: "234"
     },
     {
-        name: "doan thanh binh",
+        name: "doan binh",
         department: "FW",
         roomNumber: "9023",
         luckyNumber: "235"
     },
     {
-        name: "du nha tuan",
+        name: "du tuan",
         department: "FW",
         roomNumber: "9031",
         luckyNumber: "236"
     },
     {
-        name: "nguyen minh tien",
+        name: "nguyen minhtien",
         department: "FW",
         roomNumber: "9031",
         luckyNumber: "237"
     },
     {
-        name: "nguyen thai hien",
+        name: "nguyen thaihien",
         department: "FW",
         roomNumber: "9032",
         luckyNumber: "238"
     },
     {
-        name: "dang tieu my",
+        name: "dang my",
         department: "FW",
         roomNumber: "9033",
         luckyNumber: "239"
     },
     {
-        name: "nguyen duc trong",
+        name: "nguyen trong",
         department: "FW",
         roomNumber: "9033",
         luckyNumber: "240"
     },
     {
-        name: "phan duong ngoc chau",
+        name: "phan chau",
         department: "FW",
         roomNumber: "9033",
         luckyNumber: "241"
     },
     {
-        name: "nguyen van hung",
+        name: "nguyen vanhung",
         department: "FW",
         roomNumber: "9051",
         luckyNumber: "242"
     },
     {
-        name: "nguyen dinh tri",
+        name: "nguyen tri",
         department: "FW",
         roomNumber: "9051",
         luckyNumber: "243"
     },
     {
-        name: "pham minh thuan",
+        name: "pham thuan",
         department: "FW",
         roomNumber: "9052",
         luckyNumber: "244"
     },
     {
-        name: "khau tri vinh thien",
+        name: "khau thien",
         department: "FW",
         roomNumber: "9052",
         luckyNumber: "245"
     },
     {
-        name: "nguyen viet thuan",
+        name: "nguyen thuan",
         department: "FW",
         roomNumber: "9053",
         luckyNumber: "246"
     },
     {
-        name: "simon stegmueller",
+        name: "stegmueller simon",
         department: "FW",
         roomNumber: "9053",
         luckyNumber: "247"
     },
     {
-        name: "mai thi ngoc bich",
+        name: "mai grace",
         department: "FW",
         roomNumber: "9072",
         luckyNumber: "248"
     },
     {
-        name: "tran thi tuyet",
+        name: "tran cindy",
         department: "FW",
         roomNumber: "9072",
         luckyNumber: "249"
     },
     {
-        name: "nguyen thu huong",
+        name: "nguyen kelly",
         department: "FW",
         roomNumber: "9071",
         luckyNumber: "250"
     },
     {
-        name: "than thi kieu anh",
+        name: "than anh",
         department: "FW",
         roomNumber: "9071",
         luckyNumber: "251"
     },
     {
-        name: "dinh nguyen phuong thao",
+        name: "dinh thao",
         department: "FW",
         roomNumber: "9073",
         luckyNumber: "252"
     },
     {
-        name: "nguyen thi bich ngoc",
+        name: "nguyen emma",
         department: "FW",
         roomNumber: "9073",
         luckyNumber: "253"
     },
     {
-        name: "do thi ngoc phuong",
+        name: "do phuong",
         department: "FW",
         roomNumber: "9131",
         luckyNumber: "254"
     },
     {
-        name: "huynh dao diem tram",
+        name: "huynh tram",
         department: "FW",
         roomNumber: "9131",
         luckyNumber: "255"
     },
     {
-        name: "duong thi mai hoa",
+        name: "duong hoa",
         department: "FW",
         roomNumber: "9132",
         luckyNumber: "256"
     },
     {
-        name: "tran thu minh",
+        name: "tran thuminh",
         department: "FW",
         roomNumber: "9132",
         luckyNumber: "257"
     },
     {
-        name: "le my duyen",
+        name: "le duyen",
         department: "FW",
         roomNumber: "9133",
         luckyNumber: "258"
     },
     {
-        name: "pham tam anh",
+        name: "pham anh",
         department: "FW",
         roomNumber: "9133",
         luckyNumber: "259"
     },
     {
-        name: "nguyen binh nguyen",
+        name: "nguyen garry",
         department: "FW",
         roomNumber: "9201",
         luckyNumber: "260"
     },
     {
-        name: "tran ngoc duy",
+        name: "tran duy",
         department: "FW",
         roomNumber: "9201",
         luckyNumber: "261"
     },
     {
-        name: "phan xuan phong",
+        name: "phan phong",
         department: "FW",
         roomNumber: "9202",
         luckyNumber: "262"
     },
     {
-        name: "nguyen tuong duy",
+        name: "nguyen tuongduy",
         department: "HR",
         roomNumber: "9202",
         luckyNumber: "263"
     },
     {
-        name: "borja benito fernandez",
+        name: "benito borja",
         department: "FW",
         roomNumber: "9203",
         luckyNumber: "264"
     },
     {
-        name: "tran dung tri",
+        name: "tran tri",
         department: "FW",
         roomNumber: "9203",
         luckyNumber: "265"
     },
     {
-        name: "nguyen quang dong",
+        name: "nguyen dong",
         department: "FW",
         roomNumber: "9211",
         luckyNumber: "266"
     },
     {
-        name: "nguyen quang anh",
+        name: "nguyen anh",
         department: "FW",
         roomNumber: "9211",
         luckyNumber: "267"
     },
     {
-        name: "nguyen thi thanh thuy",
+        name: "nguyen thuy",
         department: "FW",
         roomNumber: "9212",
         luckyNumber: "268"
     },
     {
-        name: "phan thi ngoc hieu",
+        name: "phan hieu",
         department: "FW",
         roomNumber: "9212",
         luckyNumber: "269"
     },
     {
-        name: "benjamin christoph holland",
+        name: "holland benjamin",
         department: "FW",
         roomNumber: "9213",
         luckyNumber: "270"
     },
     {
-        name: "tim franklin dodson",
+        name: "dodson tim",
         department: "FW",
         roomNumber: "9213",
         luckyNumber: "271"
     },
     {
-        name: "nguyen tran quynh",
+        name: "nguyen quynh",
         department: "FW",
         roomNumber: "9231",
         luckyNumber: "272"
     },
     {
-        name: "phan trung hieu",
+        name: "phan trunghieu",
         department: "FW",
         roomNumber: "9231",
         luckyNumber: "273"
     },
     {
-        name: "tran thanh phong",
+        name: "tran phong",
         department: "FW",
         roomNumber: "9232",
         luckyNumber: "274"
     },
     {
-        name: "vo quang thuy",
+        name: "vo quangthuy",
         department: "FW",
         roomNumber: "9232",
         luckyNumber: "275"
     },
     {
-        name: "nguyen thi ngoc van",
+        name: "nguyen ngocvan",
         department: "FW",
         roomNumber: "9233",
         luckyNumber: "276"
     },
     {
-        name: "tran thi ngoc nguyen",
+        name: "tran nguyen",
         department: "FW",
         roomNumber: "9233",
         luckyNumber: "277"
     },
     {
-        name: "hoang ngoc giang sinh",
+        name: "hoang sinh",
         department: "FW",
         roomNumber: "9262",
         luckyNumber: "278"
     },
     {
-        name: "tran hoang gia hy",
+        name: "tran giahy",
         department: "FW",
         roomNumber: "9262",
         luckyNumber: "279"
     },
     {
-        name: "nguyen mai anh",
+        name: "nguyen maianh",
         department: "FW",
         roomNumber: "9261",
         luckyNumber: "280"
     },
     {
-        name: "chu vu bao tran",
+        name: "chu tran",
         department: "FW",
         roomNumber: "9261",
         luckyNumber: "281"
     },
     {
-        name: "nguyen pham vu van",
+        name: "nguyen vuvan",
         department: "FW",
         roomNumber: "9263",
         luckyNumber: "282"
     },
     {
-        name: "nguyen thi kim dung",
+        name: "nguyen kimdung",
         department: "FW",
         roomNumber: "9263",
         luckyNumber: "283"
     },
     {
-        name: "tu khanh vinh",
+        name: "tu vinh",
         department: "FW",
         roomNumber: "5163",
         luckyNumber: "284"
     },
     {
-        name: "bo quoc thang",
+        name: "bo thang",
         department: "IT",
         roomNumber: "5163",
         luckyNumber: "285"
     },
     {
-        name: "pham minh tam",
+        name: "pham tam",
         department: "FW",
         roomNumber: "5211",
         luckyNumber: "286"
     },
     {
-        name: "nguyen thanh tu",
+        name: "nguyen tu",
         department: "FW",
         roomNumber: "5211",
         luckyNumber: "287"
     },
     {
-        name: "le trong thuc",
+        name: "le thuc",
         department: "FW",
         roomNumber: "5212",
         luckyNumber: "288"
     },
     {
-        name: "bui tien phat",
+        name: "bui phat",
         department: "FW",
         roomNumber: "5212",
         luckyNumber: "289"
     },
     {
-        name: "nguyen mai dao",
+        name: "nguyen dao",
         department: "FW",
         roomNumber: "9291",
         luckyNumber: "290"
     },
     {
-        name: "vo nhat phuong",
+        name: "vo nhatphuong",
         department: "FW",
         roomNumber: "9291",
         luckyNumber: "291"
     },
     {
-        name: "nguyen van bao",
+        name: "nguyen bao",
         department: "IT",
         roomNumber: "9292",
         luckyNumber: "292"
     },
     {
-        name: "nguyen thuong hien",
+        name: "nguyen hien",
         department: "IT",
         roomNumber: "9292",
         luckyNumber: "293"
     },
     {
-        name: "nguyen thanh tam",
+        name: "nguyen thanhtam",
         department: "FW",
         roomNumber: "9293",
         luckyNumber: "294"
     },
     {
-        name: "deleep srivastava",
+        name: "srivastava deleep",
         department: "FW",
         roomNumber: "9293",
         luckyNumber: "295"
     },
     {
-        name: "tu khac huy vu",
+        name: "tu vu",
         department: "SEA",
         roomNumber: "5052",
         luckyNumber: "296"
     },
     {
-        name: "nguyen trong thanh",
+        name: "nguyen trongthanh",
         department: "Logistics",
         roomNumber: "5051",
         luckyNumber: "297"
     },
     {
-        name: "tran van nung",
+        name: "tran nung",
         department: "Logistics",
         roomNumber: "5051",
         luckyNumber: "298"
     },
     {
-        name: "dang quang vinh",
+        name: "dang vinh",
         department: "SEA",
         roomNumber: "5053",
         luckyNumber: "299"
     },
     {
-        name: "le thanh van khoa",
+        name: "le khoa",
         department: "SEA",
         roomNumber: "5053",
         luckyNumber: "300"
     },
     {
-        name: "nguyen vu khanh linh",
+        name: "nguyen lindy",
         department: "SEA",
         roomNumber: "5082",
         luckyNumber: "301"
     },
     {
-        name: "nguyen thuy khanh doan",
+        name: "nguyen doan",
         department: "SEA",
         roomNumber: "5082",
         luckyNumber: "302"
     },
     {
-        name: "ho thi kim xuan",
+        name: "ho anna",
         department: "SEA",
         roomNumber: "5081",
         luckyNumber: "303"
     },
     {
-        name: "vu thi my",
+        name: "vu my",
         department: "SEA",
         roomNumber: "5081",
         luckyNumber: "304"
     },
     {
-        name: "ngo hoang dieu thanh",
+        name: "ngo dieuthanh",
         department: "HR",
         roomNumber: "5083",
         luckyNumber: "305"
     },
     {
-        name: "herradura pavino roanne rose",
+        name: "herradura roannerose",
         department: "HR",
         roomNumber: "5083",
         luckyNumber: "306"
@@ -1355,205 +1355,205 @@ const UserList = [
         luckyNumber: "311"
     },
     {
-        name: "fischer kai torsten",
+        name: "fischer kai",
         department: "FW",
         roomNumber: "4151",
         luckyNumber: "312"
     },
     {
-        name: "flower lee marlon",
+        name: "flower lee",
         department: "FW",
         roomNumber: "5061",
         luckyNumber: "313"
     },
     {
-        name: "sartre merceus",
+        name: "merceus sartre",
         department: "FW",
         roomNumber: "5191",
         luckyNumber: "314"
     },
     {
-        name: "nguyen hai thanh",
+        name: "nguyen haithanh",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "315"
     },
     {
-        name: "nguyen hong van quan",
+        name: "nguyen quan",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "316"
     },
     {
-        name: "nguyen xuan vinh",
+        name: "nguyen vinh",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "317"
     },
     {
-        name: "tran thi bao ngoc",
+        name: "tran ngoc",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "318"
     },
     {
-        name: "tran chau hoang van",
+        name: "tran van",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "319"
     },
     {
-        name: "vu thi cuc phuong",
+        name: "vu phuong",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "320"
     },
     {
-        name: "nguyen thi thu ha",
+        name: "nguyen ha",
         department: "APP",
         roomNumber: "",
         luckyNumber: "321"
     },
     {
-        name: "le hai dang",
+        name: "le dang",
         department: "APP",
         roomNumber: "",
         luckyNumber: "322"
     },
     {
-        name: "kwok chu wun",
+        name: "kwok judy",
         department: "APP",
         roomNumber: "",
         luckyNumber: "323"
     },
     {
-        name: "bui trang thy",
+        name: "bui thy",
         department: "A&G",
         roomNumber: "",
         luckyNumber: "324"
     },
     {
-        name: "duong thi my chuong",
+        name: "duong chuong",
         department: "APP",
         roomNumber: "",
         luckyNumber: "325"
     },
     {
-        name: "le thi van anh",
+        name: "le vananh",
         department: "APP",
         roomNumber: "",
         luckyNumber: "326"
     },
     {
-        name: "nguyen yen phuong anh",
+        name: "nguyen amy",
         department: "APP",
         roomNumber: "",
         luckyNumber: "327"
     },
     {
-        name: "pham thi dung",
+        name: "pham dung",
         department: "APP",
         roomNumber: "",
         luckyNumber: "328"
     },
     {
-        name: "gail jones",
+        name: "jones gail",
         department: "APP",
         roomNumber: "",
         luckyNumber: "329"
     },
     {
-        name: "thai my phuoc",
+        name: "thai phuoc",
         department: "FW",
         roomNumber: "",
         luckyNumber: "330"
     },
     {
-        name: "nguyen thi quynh nga",
+        name: "nguyen quynhnga",
         department: "FW",
         roomNumber: "",
         luckyNumber: "331"
     },
     {
-        name: "nguyen thi nhung",
+        name: "nguyen nhung",
         department: "FW",
         roomNumber: "",
         luckyNumber: "332"
     },
     {
-        name: "tran hoang long",
+        name: "tran long",
         department: "FW",
         roomNumber: "",
         luckyNumber: "333"
     },
     {
-        name: "mignano kevin matthew",
+        name: "mignano kevin",
         department: "FW",
         roomNumber: "",
         luckyNumber: "334"
     },
     {
-        name: "nguyen luu cat trieu",
+        name: "nguyen trieu",
         department: "FW",
         roomNumber: "",
         luckyNumber: "335"
     },
     {
-        name: "vo tien loc",
+        name: "vo loc",
         department: "FW",
         roomNumber: "",
         luckyNumber: "336"
     },
     {
-        name: "doan thi thuy tien",
+        name: "doan tien",
         department: "FW",
         roomNumber: "",
         luckyNumber: "337"
     },
     {
-        name: "do anh hoang",
+        name: "do hoang",
         department: "FW",
         roomNumber: "",
         luckyNumber: "338"
     },
     {
-        name: "nguyen huu thuan",
+        name: "nguyen huuthuan",
         department: "FW",
         roomNumber: "",
         luckyNumber: "339"
     },
     {
-        name: "nguyen kim huyen",
+        name: "nguyen huyen",
         department: "FW",
         roomNumber: "",
         luckyNumber: "340"
     },
     {
-        name: "nguyen xuan dan",
+        name: "nguyen xuandan",
         department: "FW",
         roomNumber: "",
         luckyNumber: "341"
     },
     {
-        name: "vu ngoc trang",
+        name: "vu trang",
         department: "FW",
         roomNumber: "",
         luckyNumber: "342"
     },
     {
-        name: "james pitcher ethan",
+        name: "pitcher ethan",
         department: "HR",
         roomNumber: "",
         luckyNumber: "343"
     },
     {
-        name: "tran duong thoa",
+        name: "tran duongthoa",
         department: "HR",
         roomNumber: "",
         luckyNumber: "344"
     },
     {
-        name: "nguyen van dung",
+        name: "nguyen dung",
         department: "SEA",
         roomNumber: "",
         luckyNumber: "345"
